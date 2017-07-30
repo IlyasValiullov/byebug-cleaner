@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    byebug_cleaner (0.1.0)
+    byebug-cleaner (0.1.0)
       rails (~> 5)
 
 GEM
@@ -110,7 +110,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  byebug_cleaner!
+  byebug-cleaner!
 
 BUNDLED WITH
    1.15.3

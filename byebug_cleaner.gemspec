@@ -5,11 +5,11 @@ require "byebug_cleaner/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "byebug_cleaner"
+  s.name        = "byebug-cleaner"
   s.version     = ByebugCleaner::VERSION
   s.authors     = ["Ilyas Valiullov"]
   s.email       = ["ilyas.valiullov@gmail.com"]
-  s.homepage    = "https://bitbucket.org/IlyasValiullov/byebug-cleaner"
+  s.homepage    = "https://github.com/IlyasValiullov/byebug-cleaner"
   s.summary     = "Gem for clean byebug tag from source code."
   s.description = "Remove byebug tag before push your code in repos."
   s.license     = "MIT"

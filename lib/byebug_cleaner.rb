@@ -3,9 +3,9 @@ module ByebugCleaner
 	require 'fileutils'
 	
 	require 'byebug_cleaner/railtie' if defined?(Rails)
+	require 'byebug_cleaner/version'
 
   class OptparseByebugCleaner
-	  Version = '1.0.0'
 
 	  class ScriptOptions
 	    attr_accessor :dir, :backup, :test
@@ -40,7 +40,7 @@ module ByebugCleaner
 				end
 	      # Another typical switch to print the version.
 	      parser.on("-v", "Show version") do
-	        puts Version
+	        puts VERSION
 	        exit
 	      end
 	      parser.separator ""
