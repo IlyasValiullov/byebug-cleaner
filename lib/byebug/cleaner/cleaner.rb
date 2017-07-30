@@ -1,4 +1,5 @@
-require 'cleaner/output'
+require 'byebug/cleaner/output'
+
 module ByebugCleaner
 	class Cleaner
 		include ByebugCleaner
