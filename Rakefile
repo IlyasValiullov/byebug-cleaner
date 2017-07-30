@@ -17,7 +17,7 @@ end
 
 
 
-load 'tasks/byebug_cleaner_tasks.rake'
+load 'tasks/clean_tasks.rake'
 
 
 require 'bundler/gem_tasks'

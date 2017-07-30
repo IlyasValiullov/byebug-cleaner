@@ -6,7 +6,8 @@ You can remove all byebug tag from source code using rake task:
 ```bash
 rails byebug:clean
 ```
-Default path for clean is [app/*]. 
+Default path for clean is [app/*].  Script recursively search byebug tag in files and delete whole line.
+
 Task default create backup files.
 Get help for more options:
 ```bash
@@ -22,7 +23,7 @@ gem 'byebug-cleaner', github: "IlyasValiullov/byebug-cleaner"
 
 And then execute:
 ```bash
-$ bundle
+$ bundle install
 ```
 
 
