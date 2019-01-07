@@ -28,10 +28,10 @@ module ByebugCleaner
         parser.separator "Common options:"
         # No argument, shows at tail.  This will print an options summary.
         # Try it and see!
-  			parser.on("-h", "--help", "Prints this help") do
-  				puts parser
-  				exit
-  			end
+        parser.on("-h", "--help", "Prints this help") do
+          puts parser
+          exit
+        end
         # Another typical switch to print the version.
         parser.on("-v", "Show version") do
           puts VERSION
@@ -68,14 +68,14 @@ module ByebugCleaner
       # The options specified on the command line will be collected in
       # *options*.
       @options = Options.new
-      opt_parser = OptionParser.new  do |parser|
-      	@options.define_options(parser)
+      opt_parser = OptionParser.new do |parser|
+        @options.define_options(parser)
       end
       opt_parser.parse!(args)
-      
+
       @options
     end
 
     # attr_reader :parser, :options
-  end  # class OptparseExample
+  end # class OptparseExample
 end
